@@ -28852,6 +28852,10 @@ page-home .brand ion-col img {
 }
 
 page-home .contacts {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  right: 0;
   background-color: #0066B4;
 }
 
