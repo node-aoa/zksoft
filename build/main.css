@@ -6884,7 +6884,7 @@ ion-icon::before {
 }
 
 .tabbar {
-  height: 98px;
+  height: 49px;
 }
 
 body {
@@ -6893,15 +6893,15 @@ body {
 
 ion-header .toolbar-ios,
 ion-header .toolbar-md {
-  min-height: 96px;
+  min-height: 48px;
 }
 
 ion-header .toolbar-title-md,
 ion-header .toolbar-title-ios {
-  line-height: 48px;
-  margin: 22px auto;
-  min-height: 48px;
-  font-size: 34px;
+  line-height: 24px;
+  margin: 11px auto;
+  min-height: 24px;
+  font-size: 17px;
 }
 
 ion-header .toolbar-background {
@@ -6914,27 +6914,27 @@ ion-header ion-navbar {
 
 ion-header ion-navbar .nav-icon {
   position: absolute;
-  height: 60px;
-  width: 60px;
-  left: 20px;
-  top: 20px;
+  height: 30px;
+  width: 30px;
+  left: 10px;
+  top: 10px;
 }
 
 ion-header ion-navbar .nav-number {
   position: absolute;
-  right: 16px;
-  top: 39px;
-  font-size: 16px;
-  line-height: 22px;
+  right: 9px;
+  top: 20px;
+  font-size: 8px;
+  line-height: 11px;
   opacity: 0.9;
   color: #FFF;
 }
 
 ion-header ion-title {
   text-align: center;
-  font-size: 34px;
-  min-height: 48px;
-  line-height: 48px;
+  font-size: 17px;
+  min-height: 24px;
+  line-height: 24px;
 }
 
 ion-header ion-title .toolbar-title-md,
@@ -6944,22 +6944,23 @@ ion-header ion-title .toolbar-title-iso {
 
 p {
   margin: 0;
-  padding: 10px 30px;
-  font-size: 26px;
-  line-height: 38px;
+  padding: 5px 15px;
+  font-size: 13px;
+  line-height: 19px;
   color: #555;
 }
 
 ion-content h1 {
   margin: 0;
-  padding: 0px 30px;
+  padding: 0px 15px;
+  font-size: 16px;
 }
 
 ion-content h1 span {
   color: #333;
   display: inline-block;
-  border-radius: 5px;
-  padding: 10px 20px;
+  border-radius: 2.5px;
+  padding: 5px 10px;
 }
 
 ion-action-sheet {
@@ -22641,7 +22642,7 @@ ion-spinner.spinner-paused svg {
 .tabs-ios .tab-button {
   max-width: 240px;
   min-height: 49px;
-  font-size: 20px;
+  font-size: 10px;
   color: #999;
   padding: 0 2px;
 }
@@ -22658,19 +22659,19 @@ ion-spinner.spinner-paused svg {
 .tabs-ios .tab-button-text {
   margin-top: 0;
   margin-bottom: 1px;
-  min-height: 21px;
+  min-height: 11px;
 }
 
 .tabs-ios .has-title-only .tab-button-text {
-  font-size: 22px;
+  font-size: 12px;
 }
 
 .tabs-ios .tab-button-icon {
   margin-top: 4px;
   margin-bottom: 1px;
-  min-width: 41px;
-  height: 36px;
-  font-size: 36px;
+  min-width: 23px;
+  height: 18px;
+  font-size: 18px;
   color: #999;
 }
 
@@ -22814,7 +22815,7 @@ ion-spinner.spinner-paused svg {
 }
 
 .tabs-md .tab-button-text {
-  font-size: 20px;
+  font-size: 10px;
   text-transform: none;
   -webkit-transition: -webkit-transform 0.3s ease-in-out;
   transition: -webkit-transform 0.3s ease-in-out;
@@ -22826,8 +22827,8 @@ ion-spinner.spinner-paused svg {
 }
 
 .tabs-md .tab-button[aria-selected=true] .tab-button-text {
-  -webkit-transform: scale3d(0.07rem/px, 0.07rem/px, 1);
-  transform: scale3d(0.07rem/px, 0.07rem/px, 1);
+  -webkit-transform: scale3d(0.14rem/px, 0.14rem/px, 1);
+  transform: scale3d(0.14rem/px, 0.14rem/px, 1);
   -webkit-transition: -webkit-transform 0.3s ease-in-out;
   transition: -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out;
@@ -22845,8 +22846,8 @@ ion-spinner.spinner-paused svg {
 
 .tabs-md .tab-button-icon {
   margin-top: 1px;
-  min-width: 36px;
-  font-size: 36px;
+  min-width: 18px;
+  font-size: 18px;
   color: #999;
   -webkit-transition: -webkit-transform 0.3s ease-in-out;
   transition: -webkit-transform 0.3s ease-in-out;
@@ -28392,40 +28393,40 @@ td {
 
 page-about hr {
   display: block;
-  margin: 0px -16px;
-  height: 20px;
+  margin: 0px -8px;
+  height: 10px;
   background-color: #F6F6F6;
 }
 
 page-about .extend {
-  margin: -16px;
+  margin: -8px;
 }
 
 page-about span {
   color: #333;
   display: inline-block;
-  padding: 10px 20px;
-  border-radius: 5px;
+  padding: 5px 10px;
+  border-radius: 2.5px;
 }
 
 page-about cite {
   padding: 0;
-  height: 40px;
-  font-size: 24px;
+  height: 20px;
+  font-size: 12px;
   color: #ccc;
 }
 
 page-about cite:before {
   content: "“";
-  padding-right: 10px;
-  font-size: 32px;
+  padding-right: 5px;
+  font-size: 16px;
   color: #999;
 }
 
 page-about cite:after {
   content: "”";
-  padding-left: 10px;
-  font-size: 32px;
+  padding-left: 5px;
+  font-size: 16px;
   color: #999;
 }
 
@@ -28443,9 +28444,9 @@ page-about ion-content .grid {
 page-about ion-content ion-col.col {
   display: inline-block;
   color: #aaa;
-  line-height: 20px;
-  padding: 20px;
-  font-size: 14px;
+  line-height: 10px;
+  padding: 10px;
+  font-size: 7px;
 }
 
 page-about ion-content ion-col.col:first-child {
@@ -28454,10 +28455,10 @@ page-about ion-content ion-col.col:first-child {
 
 page-about ion-content .bk-color ion-col {
   color: #333;
-  padding: 5px;
-  padding-left: 20px;
-  line-height: 48px;
-  font-size: 18px;
+  padding: 2.5px;
+  padding-left: 10px;
+  line-height: 12px;
+  font-size: 9px;
 }
 
 page-about ion-content .color-1 {
@@ -28504,33 +28505,33 @@ page-about ul {
   list-style: none;
   margin: 0;
   border: 0;
-  padding: 10px 30px;
+  padding: 5px 15px;
 }
 
 page-about ul li {
   background-color: #FAFAFA;
-  padding: 10px 20px;
-  margin: 10px 0px;
-  min-height: 80px;
-  font-size: 24px;
-  line-height: 80px;
+  padding: 5px 10px;
+  margin: 5px 0;
+  min-height: 40px;
+  font-size: 12px;
+  line-height: 40px;
 }
 
 page-about ul li i {
   color: #121A8E;
   display: inline-block;
-  width: 50px;
+  width: 25px;
   text-align: center;
   opacity: 0.2;
-  margin-right: 10px;
-  font-size: 36px;
+  margin-right: 5px;
+  font-size: 13px;
 }
 
 page-about ul li i.special {
-  font-size: 37px;
+  font-size: 18px;
   position: relative;
-  bottom: -6px;
-  left: 2px;
+  bottom: -3px;
+  left: 1px;
 }
 
 page-about ul li a {
@@ -28545,15 +28546,15 @@ page-advantage ion-content {
 
 page-advantage ion-content h2 {
   color: #F6A623;
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 15px;
+  line-height: 20px;
   font-weight: bold;
-  padding: 10px 30px;
+  padding: 5px 15px;
 }
 
 page-advantage ion-content h1 {
   margin: 0;
-  padding: 0px 30px 10px;
+  padding: 0px 15px 5px;
 }
 
 page-advantage ion-content h1 .color-1 {
@@ -28598,11 +28599,11 @@ page-customer ion-content {
 }
 
 page-customer ion-content p.no-padding {
-  padding-top: 5px;
+  padding-top: 2.5px;
 }
 
 page-customer ion-content .no-padding.top {
-  padding-top: 32px;
+  padding-top: 16px;
 }
 
 page-customer ion-content h1 .color-1 {
@@ -28643,20 +28644,20 @@ page-customer ion-content h1 .color-9 {
 
 page-home .banner {
   margin: -16px;
-  margin-bottom: 30px;
-  min-height: 376px;
+  margin-bottom: 15px;
+  min-height: 188px;
   background: -webkit-gradient(linear, left top, left bottom, from(#001F5A), to(#007dd2));
   background: linear-gradient(to bottom, #001F5A, #007dd2);
 }
 
 page-home .banner .locations {
-  padding: 14px 55px 0px 55px;
-  min-height: 45px;
+  padding: 7px 27.5px 0px 27.5px;
+  min-height: 22.5px;
   opacity: 0.47;
   text-align: center;
   color: #FFF;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 10px;
+  line-height: 14px;
 }
 
 page-home .banner h1,
@@ -28669,56 +28670,56 @@ page-home .banner p {
 
 page-home .banner h4 {
   text-align: center;
-  min-height: 45px;
+  min-height: 22.5px;
   color: #FFB63D;
-  line-height: 30px;
-  font-size: 22px;
+  line-height: 15px;
+  font-size: 11px;
 }
 
 page-home .banner h1 {
   text-align: center;
   color: #FFF;
-  min-height: 50px;
-  font-size: 40px;
+  min-height: 25px;
+  font-size: 20px;
 }
 
 page-home .banner p {
-  padding: 0px 45px;
+  padding: 0px 22.5px;
   color: #FFF;
-  font-size: 24px;
-  line-height: 33px;
+  font-size: 12px;
+  line-height: 16.5px;
 }
 
 page-home .banner p.detail {
-  padding: 0px 29.5px;
-  line-height: 25px;
+  padding: 0px 14.75px;
+  line-height: 14.5px;
   text-align: right;
 }
 
 page-home .banner p.detail a {
   color: #FFF;
-  font-size: 18px;
+  font-size: 9px;
   text-decoration: none;
 }
 
 page-home ion-content h1 {
   color: #121A8E;
-  font-size: 34px;
-  line-height: 48px;
-  margin-left: 60px;
-  margin-top: 20px;
+  font-size: 17px;
+  line-height: 24px;
+  margin-left: 30px;
+  margin-top: 10px;
   position: relative;
-  min-height: 48px;
+  min-height: 24px;
 }
 
 page-home ion-content h1:after {
   content: "";
   display: block;
-  min-height: 48px;
-  width: 8px;
+  min-height: 24px;
+  width: 4px;
   position: absolute;
   top: 0px;
-  left: -32px;
+  left: -16px;
   background-color: #121A8E;
   opacity: 0.59;
 }
@@ -28730,27 +28731,27 @@ page-home ion-row {
 }
 
 page-home ion-row ion-col {
-  width: 332px;
+  width: 166px;
   text-align: center;
-  font-size: 32px;
-  line-height: 45px;
+  font-size: 16px;
+  line-height: 22.5px;
   color: #555;
-  padding: 32px 16px;
+  padding: 16px 8px;
 }
 
 page-home ion-row ion-col.bk {
   color: #333;
-  font-size: 26px;
-  margin-top: 32px;
-  padding: 32px 16px;
+  font-size: 13px;
+  margin-top: 16px;
+  padding: 16px 8px;
   text-align: left;
-  line-height: 37px;
-  border-radius: 4px;
+  line-height: 18.6px;
+  border-radius: 2px;
   opacity: 0.84;
 }
 
 page-home ion-row ion-col:first-child {
-  margin-right: 26px;
+  margin-right: 13px;
 }
 
 page-home ion-row .color-1 {
@@ -28819,22 +28820,22 @@ page-home ion-row .color-16 {
 
 page-home p.mid-print {
   color: #888;
-  font-size: 24px;
-  line-height: 33px;
-  padding: 20px 30px;
+  font-size: 12px;
+  line-height: 16.5px;
+  padding: 10px 10px;
   background-color: #F3F3F3;
-  margin: 0 -16px;
+  margin: 0 -8px;
 }
 
 page-home .brand {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 page-home .brand ion-col {
-  width: 330px;
-  height: 100px;
+  width: 165px;
+  height: 50px;
   background-color: #FFF;
-  border-radius: 4px;
+  border-radius: 2px;
   overflow: hidden;
 }
 
@@ -28843,12 +28844,12 @@ page-home .brand ion-col img {
 }
 
 page-home .contacts {
-  margin: 0 -16px;
+  margin: 0 -8px;
   background-color: #0066B4;
 }
 
 page-home .contacts table {
-  height: 100px;
+  height: 50px;
   border: 0;
   width: 100%;
   border-collapse: collapse;
@@ -28862,27 +28863,27 @@ page-home .contacts table tr td {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   text-align: center;
-  height: 100px;
-  line-height: 30px;
+  height: 50px;
+  line-height: 15px;
   color: #FFF;
-  font-size: 22px;
+  font-size: 11px;
   vertical-align: bottom;
-  padding-bottom: 14px;
+  padding-bottom: 7px;
 }
 
 page-home .contacts table tr td i {
-  font-size: 36px;
+  font-size: 18px;
 }
 
 page-home .cooperators {
-  margin: 0 -16px;
+  margin: 0 -8px;
 }
 
 page-home .cooperators table {
   width: 100%;
   border-collapse: collapse;
   border: 1px solid #EEE;
-  margin-bottom: 5px;
+  margin-bottom: 2.5px;
 }
 
 page-home .cooperators table * {
@@ -28892,7 +28893,7 @@ page-home .cooperators table * {
 page-home .cooperators table td {
   height: auto;
   line-height: auto;
-  font-size: 22px;
+  font-size: 11px;
   color: #333;
   text-align: center;
 }
@@ -28902,8 +28903,8 @@ page-contact ion-content div {
 }
 
 page-contact ion-content p {
-  padding: 10px;
-  font-size: 24px;
+  padding: 5px;
+  font-size: 12px;
   color: #9A9A9A;
 }
 
@@ -28916,10 +28917,10 @@ page-contact ion-content .grid {
 
 page-contact ion-content ion-col.col {
   display: inline-block;
-  padding: 16px 30px;
+  padding: 8px 15px;
   color: #666;
-  line-height: 38px;
-  font-size: 26px;
+  line-height: 19px;
+  font-size: 13px;
 }
 
 page-contact ion-content ion-col.col:first-child {
@@ -28927,11 +28928,11 @@ page-contact ion-content ion-col.col:first-child {
 }
 
 page-contact ion-content .bk-color ion-col {
-  padding: 16px 30px;
+  padding: 8px 15px;
   color: #000;
-  line-height: 38px;
-  font-size: 26px;
-  min-height: 70px;
+  line-height: 19px;
+  font-size: 13px;
+  min-height: 35px;
 }
 
 page-contact ion-content .color-1 {
@@ -28975,11 +28976,11 @@ page-contact ion-content .color-10 {
 }
 
 page-contact ion-content .ending {
-  padding: 20px 30px;
+  padding: 10px 15px;
 }
 
 page-contact ion-content .ending p {
-  font-size: 24px;
+  font-size: 12px;
   color: #888;
-  line-height: 33px;
+  line-height: 16.5px;
 }
