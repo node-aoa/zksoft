@@ -6968,6 +6968,46 @@ ion-app.ios [padding], ion-app.ios [padding] .scroll-content {
   padding: 0;
 }
 
+.contacts {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  right: 0;
+  background-color: #0066B4;
+}
+
+.contacts table {
+  height: 50px;
+  border: 0;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.contacts table * {
+  border: 0;
+}
+
+.contacts table tr td {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  height: 50px;
+  color: #FFF;
+  vertical-align: bottom;
+  padding-bottom: 7px;
+}
+
+.contacts table tr td i {
+  font-size: 18px;
+}
+
+.contacts table tr td a {
+  line-height: 15px;
+  font-size: 11px;
+  color: #FFF;
+  text-decoration: none;
+}
+
 ion-action-sheet {
   left: 0;
   top: 0;
@@ -28849,46 +28889,6 @@ page-home .brand ion-col {
 
 page-home .brand ion-col img {
   height: 100%;
-}
-
-page-home .contacts {
-  position: fixed;
-  top: 50%;
-  left: 0;
-  right: 0;
-  background-color: #0066B4;
-}
-
-page-home .contacts table {
-  height: 50px;
-  border: 0;
-  width: 100%;
-  border-collapse: collapse;
-}
-
-page-home .contacts table * {
-  border: 0;
-}
-
-page-home .contacts table tr td {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  text-align: center;
-  height: 50px;
-  color: #FFF;
-  vertical-align: bottom;
-  padding-bottom: 7px;
-}
-
-page-home .contacts table tr td i {
-  font-size: 18px;
-}
-
-page-home .contacts table tr td a {
-  line-height: 15px;
-  font-size: 11px;
-  color: #FFF;
-  text-decoration: none;
 }
 
 page-home .cooperators table {
