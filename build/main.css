@@ -6922,8 +6922,8 @@ ion-header ion-navbar .nav-icon {
 
 ion-header ion-navbar .nav-number {
   position: absolute;
-  right: 9px;
-  top: 20px;
+  right: 3px;
+  top: 23px;
   font-size: 8px;
   line-height: 11px;
   opacity: 0.9;
@@ -6961,6 +6961,11 @@ ion-content h1 span {
   display: inline-block;
   border-radius: 2.5px;
   padding: 5px 10px;
+}
+
+ion-app.md [padding], ion-app.md [padding] .scroll-content,
+ion-app.ios [padding], ion-app.ios [padding] .scroll-content {
+  padding: 0;
 }
 
 ion-action-sheet {
@@ -28398,10 +28403,6 @@ page-about hr {
   background-color: #F6F6F6;
 }
 
-page-about .extend {
-  margin: -8px;
-}
-
 page-about span {
   color: #333;
   display: inline-block;
@@ -28544,12 +28545,21 @@ page-advantage ion-content {
   padding: 0;
 }
 
+page-advantage ion-content .extend {
+  margin-top: -16px;
+}
+
 page-advantage ion-content h2 {
   color: #F6A623;
   font-size: 15px;
   line-height: 20px;
   font-weight: bold;
   padding: 5px 15px;
+  margin-top: 10px;
+}
+
+page-advantage ion-content p {
+  margin-bottom: 5px;
 }
 
 page-advantage ion-content h1 {
@@ -28643,7 +28653,6 @@ page-customer ion-content h1 .color-9 {
 }
 
 page-home .banner {
-  margin: -16px;
   margin-bottom: 15px;
   min-height: 188px;
   background: -webkit-gradient(linear, left top, left bottom, from(#001F5A), to(#007dd2));
@@ -28651,7 +28660,7 @@ page-home .banner {
 }
 
 page-home .banner .locations {
-  padding: 7px 27.5px 0px 27.5px;
+  padding: 7px 24px 0px;
   min-height: 22.5px;
   opacity: 0.47;
   text-align: center;
@@ -28691,7 +28700,7 @@ page-home .banner p {
 }
 
 page-home .banner p.detail {
-  padding: 0px 14.75px;
+  padding: 0px 14.75px 5px;
   line-height: 14.5px;
   text-align: right;
 }
@@ -28725,7 +28734,7 @@ page-home ion-content h1:after {
 }
 
 page-home ion-row {
-  margin: 0;
+  margin: 0 8px;
   padding: 0;
   border: 0;
 }
@@ -28824,7 +28833,6 @@ page-home p.mid-print {
   line-height: 16.5px;
   padding: 10px 10px;
   background-color: #F3F3F3;
-  margin: 0 -8px;
 }
 
 page-home .brand {
@@ -28844,7 +28852,6 @@ page-home .brand ion-col img {
 }
 
 page-home .contacts {
-  margin: 0 -8px;
   background-color: #0066B4;
 }
 
@@ -28864,9 +28871,7 @@ page-home .contacts table tr td {
   box-sizing: border-box;
   text-align: center;
   height: 50px;
-  line-height: 15px;
   color: #FFF;
-  font-size: 11px;
   vertical-align: bottom;
   padding-bottom: 7px;
 }
@@ -28875,8 +28880,11 @@ page-home .contacts table tr td i {
   font-size: 18px;
 }
 
-page-home .cooperators {
-  margin: 0 -8px;
+page-home .contacts table tr td a {
+  line-height: 15px;
+  font-size: 11px;
+  color: #FFF;
+  text-decoration: none;
 }
 
 page-home .cooperators table {
