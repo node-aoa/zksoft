@@ -28436,6 +28436,21 @@ td {
   padding: 3px;
 }
 
+.alert-md .alert-wrapper,
+.alert-ios .alert-wrapper {
+  border-radius: 10px;
+}
+
+.alert-md .alert-title,
+.alert-ios .alert-title {
+  color: #000;
+}
+
+h3 {
+  background-color: #fff;
+  color: #666;
+}
+
 page-about hr {
   display: block;
   margin: 0px -8px;
