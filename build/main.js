@@ -438,7 +438,14 @@ var ZKContact = (function () {
     ZKContact.prototype.wechat = function (event) {
         var title = "如无法自动添加微信好友，请手动添加微信号：chenrain521。";
         try {
+            var textarea = document.createElement("textarea");
+            textarea.textContent = "chenrain521";
+            textarea.style.position = "fixed";
+            textarea.style.top = "-1000px";
+            document.body.appendChild(textarea);
+            textarea.select();
             var successful = document.execCommand('copy');
+            document.body.removeChild(textarea);
             if (successful) {
                 title += "\n微信号已经成功复制到系统！";
             }
@@ -452,6 +459,12 @@ var ZKContact = (function () {
     ZKContact.prototype.mail = function (event) {
         var title = "如遇无法自动打开邮件发送，请手动发送邮件到：soft@info-soft.cn。";
         try {
+            var textarea = document.createElement("textarea");
+            textarea.textContent = "soft@info-soft.cn";
+            textarea.style.position = "fixed";
+            textarea.style.top = "-1000px";
+            document.body.appendChild(textarea);
+            textarea.select();
             var successful = document.execCommand('copy');
             if (successful) {
                 title += "邮箱已经成功复制到系统！";
