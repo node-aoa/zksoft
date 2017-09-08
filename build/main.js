@@ -419,28 +419,48 @@ var ZKContact = (function () {
         this.alertCtrl = alertCtrl;
         this.navCtrl = navCtrl;
     }
-    ZKContact.prototype.alertWechat = function () {
+    ZKContact.prototype.alertWechat = function (title) {
         var alert = this.alertCtrl.create({
             title: '微信咨询号码添加提示',
-            subTitle: '如无法自动添加微信好友，请手动添加微信号：chenrain521。',
+            subTitle: title,
             buttons: ['确定']
         });
         alert.present();
     };
-    ZKContact.prototype.alertEmail = function () {
+    ZKContact.prototype.alertEmail = function (title) {
         var alert = this.alertCtrl.create({
             title: '邮件联系提示',
-            subTitle: '如遇无法自动打开邮件发送，请手动发送邮件到：soft@info-soft.cn。',
+            subTitle: title,
             buttons: ['确定']
         });
         alert.present();
     };
     ZKContact.prototype.wechat = function (event) {
-        this.alertWechat();
+        var title = "如无法自动添加微信好友，请手动添加微信号：chenrain521。";
+        try {
+            var successful = document.execCommand('copy');
+            if (successful) {
+                title += "\n微信号已经成功复制到系统！";
+            }
+        }
+        catch (err) {
+            console.log(err);
+        }
+        this.alertWechat(title);
         return false;
     };
     ZKContact.prototype.mail = function (event) {
-        this.alertEmail();
+        var title = "如遇无法自动打开邮件发送，请手动发送邮件到：soft@info-soft.cn。";
+        try {
+            var successful = document.execCommand('copy');
+            if (successful) {
+                title += "邮箱已经成功复制到系统！";
+            }
+        }
+        catch (err) {
+            console.log(err);
+        }
+        this.alertEmail(title);
         return false;
     };
     return ZKContact;

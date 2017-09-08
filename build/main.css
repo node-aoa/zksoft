@@ -6968,46 +6968,6 @@ ion-app.ios [padding], ion-app.ios [padding] .scroll-content {
   padding: 0;
 }
 
-.contacts {
-  position: fixed;
-  top: 50%;
-  left: 0;
-  right: 0;
-  background-color: #0066B4;
-}
-
-.contacts table {
-  height: 50px;
-  border: 0;
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.contacts table * {
-  border: 0;
-}
-
-.contacts table tr td {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  text-align: center;
-  height: 50px;
-  color: #FFF;
-  vertical-align: bottom;
-  padding-bottom: 7px;
-}
-
-.contacts table tr td i {
-  font-size: 18px;
-}
-
-.contacts table tr td a {
-  line-height: 15px;
-  font-size: 11px;
-  color: #FFF;
-  text-decoration: none;
-}
-
 ion-action-sheet {
   left: 0;
   top: 0;
@@ -28436,6 +28396,46 @@ td {
   padding: 3px;
 }
 
+zk-contacts .contacts {
+  position: fixed;
+  top: 75%;
+  left: 0;
+  right: 0;
+  background-color: #0066B4;
+}
+
+zk-contacts .contacts table {
+  height: 50px;
+  border: 0;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+zk-contacts .contacts table * {
+  border: 0;
+}
+
+zk-contacts .contacts table tr td {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  height: 50px;
+  color: #FFF;
+  vertical-align: bottom;
+  padding-bottom: 7px;
+}
+
+zk-contacts .contacts table tr td i {
+  font-size: 18px;
+}
+
+zk-contacts .contacts table tr td a {
+  line-height: 15px;
+  font-size: 11px;
+  color: #FFF;
+  text-decoration: none;
+}
+
 .alert-md .alert-wrapper,
 .alert-ios .alert-wrapper {
   border-radius: 10px;
@@ -28444,6 +28444,14 @@ td {
 .alert-md .alert-title,
 .alert-ios .alert-title {
   color: #000;
+}
+
+.alert-ios .alert-sub-title,
+.alert-md .alert-sub-title {
+  -webkit-user-select: all;
+  -moz-user-select: all;
+  -ms-user-select: all;
+  user-select: all;
 }
 
 h3 {
